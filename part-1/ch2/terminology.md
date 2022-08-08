@@ -1,4 +1,6 @@
-## 术语 terminology ##
+## 术语详解 terminology ##
+
+实际上Lucene所用的信息信息检索方面的术语基本跟Information Retrieval（《信息检索》原版）保持一致。比如Term、Dictionary、Postings等。
 
 <br/><br/><br/>
 

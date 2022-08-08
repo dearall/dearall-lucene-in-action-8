@@ -9,7 +9,18 @@ bui# Summary
     * [2.1.1 文档和域 Documents and fields](part-1/ch2/ch2-01.md#1)
     * [2.1.2 灵活的架构 Flexible schema](part-1/ch2/ch2-01.md#2)
   * [2.2 理解索引过程 Understanding the indexing process](part-1/ch2/ch2-02.md)
-    * [2.2.1 提取文本并创建文档 Extracting text and creating the document](part-1/ch2/ch2-02.md#1)
+    * [2.2.1 提取文本和创建文档 Extracting text and creating the document](part-1/ch2/ch2-02.md#1)
+    * [2.2.2 分析 Analysis](part-1/ch2/ch2-02.md#2)
+    * [2.2.3 添加到索引 Adding to index](part-1/ch2/ch2-02.md#3)
+      * [倒排索引 Inverted Index](part-1/ch2/ch2-02.md#31)
+      * [正向索引 Forward Index](part-1/ch2/ch2-02.md#32)
+      * [索引段 Index Segments](part-1/ch2/ch2-02.md#33)
+  * [2.3 基本索引操作 Basic index operations](part-1/ch2/ch2-03.md)
+    * [2.3.1 IndexWriter 概述 Introduction of IndexWriter](part-1/ch2/ch2-03.md#1)
+    * [2.3.2 向索引添加文档 Adding documents to index](part-1/ch2/ch2-03.md#2)
+    * [2.3.3 删除索引中的文档 Deleting documents from an index](part-1/ch2/ch2-03.md#3)
+    * [2.3.4 更新索引中的文档 Updating documents in the index](part-1/ch2/ch2-03.md#4)
+  * [2.4 域选项 Field options](part-1/ch2/ch2-04.md)
 
 
 
