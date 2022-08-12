@@ -21,6 +21,16 @@ bui# Summary
     * [2.3.3 删除索引中的文档 Deleting documents from an index](part-1/ch2/ch2-03.md#3)
     * [2.3.4 更新索引中的文档 Updating documents in the index](part-1/ch2/ch2-03.md#4)
   * [2.4 域选项 Field options](part-1/ch2/ch2-04.md)
+    * [2.4.1 域索引选项 Field options for indexing](part-1/ch2/ch2-04.md#1)
+    * [2.4.2 域存储选项 Field options for storing fields](part-1/ch2/ch2-04.md#2)
+    * [2.4.3 域的词项向量选项 Field options for term vectors](part-1/ch2/ch2-04.md#3)
+    * [2.4.4 域分析选项 Field options for analysis](part-1/ch2/ch2-04.md#4)
+    * [2.4.5 域 DocValuesType 选项 Field options for DocValuesType](part-1/ch2/ch2-04.md#5)
+    * [2.4.6 域 Norms 选项 Field options for Norms](part-1/ch2/ch2-04.md#6)
+    * [2.4.7 FieldType 的 freeze 选项 FieldType options for freeze](part-1/ch2/ch2-04.md#7)
+  * [2.5 域的值类型 value type of Field](part-1/ch2/ch2-05.md)
+    * [2.5.1 域的二进制类型值 binary value type of Field](part-1/ch2/ch2-05.md#1)
+    * [2.5.2 域的字符序列类型值 CharSequence value type of Field](part-1/ch2/ch2-05.md#2)
 
 
 

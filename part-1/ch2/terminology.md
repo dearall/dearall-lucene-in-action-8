@@ -33,21 +33,21 @@
 }
 ```
 
-可以看到，3条Document的字段并不完全一样，这在Lucene中是合法的。
+可以看到，3 条 Document 的字段并不完全一样，这在 Lucene 中是合法的。
 
 <br/><br/>
-<font size=3 color=green>Token(语汇单元) 和 Term(词项)</font>
+<font size=3 color=green> 词元 Token 和 词项 Term</font>
 ---
-Token 是存储在字段中的文本数据经过分词器分词后（准确的说是经过Tokenizer处理之后）产生的一系列词或者词组。比如假设有个"content"字段的存储的值为"My name is Ni Yanchun"，这个字段经过Lucene的标准分词器分词后的结果是："my", "name", "is", "ni", "yanchun"。这里的每个词就是一个token，当然实际上除了词自身外，token还会包含一些其它属性。
+Token 是存储在字段中的文本数据经过分词器（Tokenizer）分词后产生的一系列词或者词组，以及这些词或词组本身在原始文本中的一些属性信息，例如可选的词频 TF、位置 postion、字符偏移量 offset、附加数据 payload 等信息，为了表述方便，我们把这些属性统称为 token 的元数据。举例来说，假设有个 "body" 字段的存储的值为 "the quick brown fox jumped over the lazy dog"，这个字段经过 Lucene 的标准分词器分词后的结果是："the" "quick" "brown" "fox" "jumped" "over" "the" "lazy" "dog"。这里的每个词就是一个 token，当然实际上除了词自身外，token 还会包含元数据。
 
-一个token加上它原来所属的字段的名称构成了Term。比如"content"和"my"组成一个term，"content"和"name"组成另外一个term。我们检索的时候搜的就是Term，而不是Token或者Document（但搜到term之后，会找到包含这个term的Document，然后返回整个Document，而不是返回单个Term）。
+一个 token 加上它原来所属的字段的名称构成了 Term。比如 "body" 和 "quick" 组成一个 Term，"body" 和 "fox" 组成另外一个 Term。我们检索的时候搜的就是 Term，而不是 Token 或者 Document。但搜到 Term 时，会找到包含这个 Term 的文档的 ID 号码，即 DocID，然后通过 DocID 返回整个 Document。注意，Term 通过域的名字 name 和域关联，即 Term 含有域信息，具有不同名字但有相同内容的 Term 是不同的，例如 "title":"fox" 和 "body":"fox" 是不同的 Term 。
 
 
 <br/><br/>
-<font size=3 color=green>Segment</font>
+<font size=3 color=green>索引段 Segment</font>
 ---
 
-Indexing的时候，并不是将所有数据写到一起，而是再分了一层，这层就是segment。Indexing的时候，会先将Document缓存，然后定期flush到文件。每次flush就会生成一个Segment。所以一个Index包含若干个Segment，每个Segment就是一部分Document所生成的一个倒排索引。为了减少文件描述符的使用，这些小的Segment会定期的合并为（merge）大的Segment，数据量不大的时候，合并之后一个index可能只有一个Segment。搜索的时候，会搜索各个Segment，然后合并搜索结果。
+Indexing 的时候，并不是将所有数据写到一起，而是再分了一层，这层就是索引段 segment。索引的时候，会先将 Document 缓存，然后定期刷新到文件。每次刷新就会生成一个索引段。所以一个 Index 包含若干个Segment，每个 Segment 是一个具有完整数据的小型索引，所有的 Segment 组成了整个索引。因此一个索引包含了一个或多个索引段，搜索时，Lucene 检索的就是索引中的每个索引段 Segment，然后将每个段的搜索结果进行合并，得到最终的搜索结果。为了减少文件描述符的使用，这些小的索引段 Segment 会定期的合并为（merge）大的索引段 Segment，数据量不大的时候，合并之后一个 index 可能只有一个 Segment。
 
 
 
