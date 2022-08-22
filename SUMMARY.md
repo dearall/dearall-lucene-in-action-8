@@ -65,6 +65,18 @@ bui# Summary
     * [2.6.28 FeatureField 类 FeatureField sugar subclass](part-1/ch2/ch2-06.md#28)
   * [2.7 索引日期和时间 Indexing dates and times](part-1/ch2/ch2-07.md)
   * [2.8 近实时搜索 Near-real-time search](part-1/ch2/ch2-08.md)
+  * [2.9 并发、线程安全及锁机制 Concurrency, thread safety, and locking issues](part-1/ch2/ch2-09.md)
+    * [2.9.1 线程和多虚拟机安全 Thread and multi-JVM safety](part-1/ch2/ch2-09.md#1)
+    * [2.9.2 通过远程文件系统访问索引 Accessing an index over a remote file system](part-1/ch2/ch2-09.md#2)
+    * [2.9.3 索引锁机制 Index locking](part-1/ch2/ch2-09.md#3)
+  * [2.10 调试索引 Debugging indexing](part-1/ch2/ch2-10.md)
+  * [2.11 高级索引概念 Advanced indexing concepts](part-1/ch2/ch2-11.md)
+    * [2.11.1 索引删除策略 IndexDeletionPolicy](part-1/ch2/ch2-11.md#1)
+    * [2.11.2 缓存和刷新 Buffering and flushing](part-1/ch2/ch2-11.md#2)
+    * [2.11.3 索引提交 Index commits](part-1/ch2/ch2-11.md#3)
+    * [2.11.4 ACID 事务和索引一致性 ACID transactions and index consistency](part-1/ch2/ch2-11.md#4)
+    * [2.11.5 段合并 Merging](part-1/ch2/ch2-11.md#5)
+    * [2.11.6 合并多个索引 Adding indexes to a index](part-1/ch2/ch2-11.md#6)
 
 
 

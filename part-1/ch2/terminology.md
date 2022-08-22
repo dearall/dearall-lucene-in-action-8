@@ -8,10 +8,10 @@
 ---
 对于初学全文检索的人来说，索引这个词非常具有迷惑性，主要原因是它有两个词性：
 
-- 动词：做动词时，一般英文写为“indexing”，比如“索引一个文件”翻译为“indexing a file”，它指的是我们将原始数据经过一系列的处理，最终形成可以高效全文检索（对于Lucene，就是生成倒排索引）的过程。这个过程就称之为索引（indexing）。
-- 名词：做名词时，写为“index”。经过indexing最终形成的结果（一般以文件形式存在）称之为索引（index）。
+- 动词：做动词时，一般英文写为 “indexing”，比如 “索引一个文件” 翻译为 “indexing a file”，它是指我们将原始数据经过一系列的处理，最终形成可以高效全文检索（对于 Lucene，就是生成倒排索引）的过程。这个过程就称之为索引（indexing）。
+- 名词：做名词时，写为“index”。经过 indexing 最终形成的结果（一般以文件形式存在）称之为索引（index）或索引库。
 
-所以，见到索引这个词，你一定要分清楚是动词还是名词。后面为了清楚，凡是作为动词的时候我使用indexing，作为名词的时候使用index。Index是Lucene中的顶级逻辑结构，它是一个逻辑概念，如果对应到具体的实物，就是一个目录，目录里面所有的文件组成一个index。注意，这个目录里面不会再嵌套目录，只会包含多个文件。具体index的构成细节后面会专门写一篇文章来介绍。对应到代码里面，就是org.apache.lucene.store.Directory这个抽象类。最后要说明一点的是，Lucene中的Index和ElasticSearch里面的Index不是一个概念，ElasticSearch里面的shard对应的才是Lucene的Index。
+所以，见到索引这个词，一定要分清楚是动词还是名词。后面为了清楚，凡是作为动词的时候我使用 indexing，作为名词的时候使用 index。Index 是 Lucene 中的顶级逻辑结构，它是一个逻辑概念，如果对应到具体的实物，就是一个目录，目录里面所有的文件组成一个 index。注意，这个目录里面不会再嵌套目录，只会包含多个文件。对应到代码里面，就是 org.apache.lucene.store.Directory 这个抽象类。最后要说明一点的是，Lucene 中的 Index 和 ElasticSearch 里面的 Index 不是一个概念，ElasticSearch里面的 shard 对应的才是 Lucene 的 Index。
 
 <br/><br/>
 <font size=3 color=green>文档（Document）和域/字段（Field）</font>
