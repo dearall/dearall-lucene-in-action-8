@@ -2,9 +2,12 @@ bui# Summary
 
 * [前言](README.md)
 
-### [第一部分 Lucene 核心](part-1/part-1.md)
+### [第一部分 Lucene 核心 core](part-1/part-1.md)
 
-* [第2章 构建索引 Building a search index](part-1/ch2/ch2.md)
+* [第 2 章 构建索引 Building a search index](part-1/ch2/ch2.md)
+  * [2.0 关于索引的基本概念及 API 简介](part-1/ch2/ch2-00.md)
+    * [2.0.1 索引 API 概述（Index APIs）](part-1/ch2/ch2-00.md#1)
+    * [2.0.2 域的类型 Field types](part-1/ch2/ch2-00.md#2)
   * [2.1 Lucene 如何对搜索内容进行建模 How Lucene models content](part-1/ch2/ch2-01.md)
     * [2.1.1 文档和域 Documents and fields](part-1/ch2/ch2-01.md#1)
     * [2.1.2 灵活的架构 Flexible schema](part-1/ch2/ch2-01.md#2)
@@ -77,6 +80,8 @@ bui# Summary
     * [2.11.4 ACID 事务和索引一致性 ACID transactions and index consistency](part-1/ch2/ch2-11.md#4)
     * [2.11.5 段合并 Merging](part-1/ch2/ch2-11.md#5)
     * [2.11.6 合并多个索引 Adding indexes to a index](part-1/ch2/ch2-11.md#6)
+    * [2.11.7 倒排索引 API（Postings APIs）](part-1/ch2/ch2-11.md#7)
+    * [2.11.8 索引库统计信息 Index Statistics](part-1/ch2/ch2-11.md#8)
 
 
 

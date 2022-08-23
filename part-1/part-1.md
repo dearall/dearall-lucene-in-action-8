@@ -2,5 +2,4 @@
 
 # Lucene 核心 #
 
-
-  本书前半部分涵盖了 Lucene 的 Java 包相关内容。
+&emsp;&emsp;本书第一部分涵盖了 Lucene 的核心（core）Java 包相关内容。
