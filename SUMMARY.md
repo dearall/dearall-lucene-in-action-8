@@ -3,8 +3,9 @@ bui# Summary
 * [前言](README.md)
 
 ### [第一部分 Lucene 核心 core](part-1/part-1.md)
-
-* [第 2 章 构建索引 Building a search index](part-1/ch2/ch2.md)
+* [第1章 初识 Lucene](part-1/ch1/ch1.md)
+  * [1.1 应对信息爆炸 Dealing with information explosion](part-1/ch1/ch1-01.md)
+* [第2章 构建索引 Building a search index](part-1/ch2/ch2.md)
   * [2.0 关于索引的基本概念及 API 简介](part-1/ch2/ch2-00.md)
     * [2.0.1 索引 API 概述（Index APIs）](part-1/ch2/ch2-00.md#1)
     * [2.0.2 域的类型 Field types](part-1/ch2/ch2-00.md#2)
@@ -14,7 +15,7 @@ bui# Summary
   * [2.2 理解索引过程 Understanding the indexing process](part-1/ch2/ch2-02.md)
     * [2.2.1 提取文本和创建文档 Extracting text and creating the document](part-1/ch2/ch2-02.md#1)
     * [2.2.2 分析 Analysis](part-1/ch2/ch2-02.md#2)
-    * [2.2.3 添加到索引 Adding to index](part-1/ch2/ch2-02.md#3)
+    * [2.2.3 向索引添加数据 Adding to index](part-1/ch2/ch2-02.md#3)
       * [倒排索引 Inverted Index](part-1/ch2/ch2-02.md#31)
       * [正向索引 Forward Index](part-1/ch2/ch2-02.md#32)
       * [索引段 Index Segments](part-1/ch2/ch2-02.md#33)
