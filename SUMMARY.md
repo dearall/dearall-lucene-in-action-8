@@ -109,7 +109,12 @@ bui# Summary
 
 
   * [术语 terminology](part-1/ch2/terminology.md)
-
+* [第3章 为程序添加搜索功能 Adding search to your application](part-1/ch3/ch3.md)
+  * [3.1 实现简单搜索 Implementing a simple search feature](part-1/ch3/ch3-01.md)
+    * [3.1.1 搜索指定的词项 Searching for a specific term](part-1/ch3/ch3-01.md#1)
+    * [3.1.2 解析用户输入的查询表达式 Parsing a user-entered query expression: QueryParser](part-1/ch3/ch3-01.md#2)
+  * [3.2 使用 IndexSearcher](part-1/ch3/ch3-02.md)
+    * [3.2.1 创建 IndexSearcher](part-1/ch3/ch3-02.md#1)
 * [第5章 高级搜索技术](part-1/ch5/ch5.md)
   * [5.6  搜索过滤](part-1/ch5/ch5-06.md)
      * [5.6.1 词项范围过滤 Term Range Filter](part-1/ch5/ch5-06.md#1)
