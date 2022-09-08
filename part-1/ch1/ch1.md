@@ -19,6 +19,8 @@
 
 &emsp;&emsp;本书内容基于 **Lucene 8.x**，示例代码使用当前最新 **8.11.2** 版本编译通过。由于 Lucene 版本向后兼容特性，书中内容和代码示例可以在所有 Lucene 8.x 版本中运行。
 
+&emsp;&emsp;本书示例代码位于：[https://github.com/dearall/lia-lucene8-source-code.git](https://github.com/dearall/lia-lucene8-source-code.git)
+
 
 
 
