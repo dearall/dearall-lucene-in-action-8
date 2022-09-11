@@ -43,7 +43,7 @@
     </tr>
     <tr>
         <td>QueryParser</td>
-        <td>将用户输入的（人类可读）文本表达式解析成一个具体的 Query 对象</td>
+        <td>将用户输入的文本（人类可读）表达式解析成一个具体的 Query 对象</td>
     </tr>
     <tr>
         <td>TopDocs</td>
