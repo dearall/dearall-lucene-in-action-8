@@ -224,6 +224,12 @@ bui# Summary
   * [5.10 Stopping a slow search](part-1/ch5/ch5-10.md)
 * [第6章 扩展搜索 Extending search](part-1/ch5/ch6.md)
   * [6.1 利用自定义排序方法 Using a custom sort method](part-1/ch5/ch6-01.md)
+    * [6.1.1 为地理位置排序索引文档 Indexing documents for geographic sorting](part-1/ch5/ch6-01.md#1)
+    * [6.1.2 实现自定义地理排序 Implementing custom geographic sort](part-1/ch5/ch6-01.md#2)
+    * [6.1.3 访问用于自定义排序中的值 Accessing values used in custom sorting](part-1/ch5/ch6-01.md#3)
+    * [6.1.4 使用 XYDocValuesField 实现位置排序](part-1/ch5/ch6-01.md#4)
+    * [6.1.5 通过 LatLonDocValuesField 实现位置排序](part-1/ch5/ch6-01.md#5)
+  * [6.2 自定义的收集器 Developing a custom Collector](part-1/ch5/ch6-02.md)
 
 
 
