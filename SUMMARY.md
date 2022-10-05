@@ -222,46 +222,39 @@ bui# Summary
     * [5.9.1 查找类似的书籍 Books like this](part-1/ch5/ch5-09.md#1)
     * [5.9.2 分类 What category](part-1/ch5/ch5-09.md#2)
   * [5.10 Stopping a slow search](part-1/ch5/ch5-10.md)
-* [第6章 扩展搜索 Extending search](part-1/ch5/ch6.md)
-  * [6.1 利用自定义排序方法 Using a custom sort method](part-1/ch5/ch6-01.md)
-    * [6.1.1 为地理位置排序索引文档 Indexing documents for geographic sorting](part-1/ch5/ch6-01.md#1)
-    * [6.1.2 实现自定义地理排序 Implementing custom geographic sort](part-1/ch5/ch6-01.md#2)
-    * [6.1.3 访问用于自定义排序中的值 Accessing values used in custom sorting](part-1/ch5/ch6-01.md#3)
-    * [6.1.4 使用 XYDocValuesField 实现位置排序](part-1/ch5/ch6-01.md#4)
-    * [6.1.5 通过 LatLonDocValuesField 实现位置排序](part-1/ch5/ch6-01.md#5)
-  * [6.2 自定义的收集器 Developing a custom Collector](part-1/ch5/ch6-02.md)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+* [第6章 扩展搜索 Extending search](part-1/ch6/ch6.md)
+  * [6.1 利用自定义排序方法 Using a custom sort method](part-1/ch6/ch6-01.md)
+    * [6.1.1 为地理位置排序索引文档 Indexing documents for geographic sorting](part-1/ch6/ch6-01.md#1)
+    * [6.1.2 实现自定义地理排序 Implementing custom geographic sort](part-1/ch6/ch6-01.md#2)
+    * [6.1.3 访问用于自定义排序中的值 Accessing values used in custom sorting](part-1/ch6/ch6-01.md#3)
+    * [6.1.4 使用 XYDocValuesField 实现位置排序](part-1/ch6/ch6-01.md#4)
+    * [6.1.5 通过 LatLonDocValuesField 实现位置排序](part-1/ch6/ch6-01.md#5)
+  * [6.2 自定义的收集器 Developing a custom Collector](part-1/ch6/ch6-02.md)
+    * [6.2.1 Lucene 对搜索结果的收集过程](part-1/ch6/ch6-02.md#1)
+    * [6.2.2 自定义收集器: BookLinkCollector](part-1/ch6/ch6-02.md#2)
+    * [6.2.3 AllDocCollector](part-1/ch6/ch6-02.md#3)
+  * [6.3 扩展（Extending） QueryParser](part-1/ch6/ch6-03.md)
+    * [6.3.1 自定义 QueryParser 的行为 Customizing QueryParser’s behavior](part-1/ch6/ch6-03.md#1)
+    * [6.3.2 防止创建模糊查询和通配符查询 Prohibiting fuzzy and wildcard queries](part-1/ch6/ch6-03.md#2)
+    * [6.3.3 处理数值域范围查询 Handling numeric field-range queries](part-1/ch6/ch6-03.md#3)
+    * [6.3.4 处理日期域范围查询 Handling date ranges](part-1/ch6/ch6-03.md#4)
+    * [6.3.5 使短语查询按次序匹配 Allowing ordered phrase queries](part-1/ch6/ch6-03.md#5)
+  * [6.4 自定义过滤 Custom filters](part-1/ch6/ch6-04.md)
+    * [6.4.1 实现自定义过滤器 Implementing a custom filter](part-1/ch6/ch6-04.md#1)
+    * [6.4.2 搜索期间使用自定义过滤器 Using our custom filter during searching](part-1/ch6/ch6-04.md#2)
+    * [6.4.3 稍微复杂些的测试](part-1/ch6/ch6-04.md#3)
+  * [6.5 有效载荷 Payloads](part-1/ch6/ch6-05.md)
+    * [6.5.1 分析期间产生 payload（Producing payloads during analysis）](part-1/ch6/ch6-05.md#1)
+    * [6.5.2 搜索时使用 payload（Using payloads during searching）](part-1/ch6/ch6-05.md#2)
 
 
 ### [第二部分 Lucene 应用](part-2/part-2.md)
+* [第7章 利用 Tika 提取文本 Extracting text with Tika](part-2/ch7/ch7.md)
+  * [7.1 Tika 是什么](part-2/ch7/ch7-01.md)
+* [第8章 Lucene 基本扩展 Essential Lucene extensions](part-2/ch7/ch8.md)
+  * [8.1 Lucene 索引工具箱 Luke](part-2/ch7/ch8-01.md)
+* [第9章 Lucene 深度扩展 Further Lucene extensions](part-2/ch7/ch9.md)
 
 
 
 
-
-
-
-### [第三部分 Lucene 案例分析](part-3/part-3.md)
