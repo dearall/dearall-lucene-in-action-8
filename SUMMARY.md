@@ -246,13 +246,25 @@ bui# Summary
   * [6.5 有效载荷 Payloads](part-1/ch6/ch6-05.md)
     * [6.5.1 分析期间产生 payload（Producing payloads during analysis）](part-1/ch6/ch6-05.md#1)
     * [6.5.2 搜索时使用 payload（Using payloads during searching）](part-1/ch6/ch6-05.md#2)
-
-
+  
 ### [第二部分 Lucene 应用](part-2/part-2.md)
 * [第7章 利用 Tika 提取文本 Extracting text with Tika](part-2/ch7/ch7.md)
   * [7.1 Tika 是什么](part-2/ch7/ch7-01.md)
 * [第8章 Lucene 基本扩展 Essential Lucene extensions](part-2/ch7/ch8.md)
-  * [8.1 Lucene 索引工具箱 Luke](part-2/ch7/ch8-01.md)
+  * [8.1 Luke：Lucene 索引库工具箱](part-2/ch8/ch8-01.md)
+    * [8.1.1 Overview 选项卡: 查看索引库全局信息](part-2/ch8/ch8-01.md#1)
+    * [8.1.2 文档浏览](part-2/ch8/ch8-01.md#2)
+    * [8.1.3 使用 QueryParser 进行搜索 Using QueryParser to search](part-2/ch8/ch8-01.md#3)
+    * [8.1.4 Luke 分析选项卡 Analysis](part-2/ch8/ch8-01.md#4)
+    * [8.1.5 Luke 提交选项卡 Commits](part-2/ch8/ch8-01.md#5)
+    * [8.1.6 Luke 日志 Logs](part-2/ch8/ch8-01.md#6)
+  * [8.2 分析器、分词器、以及词元过滤器 Analyzers, tokenizers, and TokenFilters](part-2/ch8/ch8-02.md)
+    * [8.2.1 SnowballFilter](part-2/ch8/ch8-02.md#1)
+    * [8.2.2 Ngram 分词器和过滤器](part-2/ch8/ch8-02.md#2)
+    * [8.2.3 ShingleFilter 过滤器](part-2/ch8/ch8-02.md#3)
+  * [8.3 高亮显示查询词项 Highlighting query terms](part-2/ch8/ch8-03.md)
+    * [8.3.1 Highlighter 组件](part-2/ch8/ch8-03.md#1)
+    * [8.3.2 独立的高亮显示示例](part-2/ch8/ch8-03.md#2)
 * [第9章 Lucene 深度扩展 Further Lucene extensions](part-2/ch7/ch9.md)
 
 
