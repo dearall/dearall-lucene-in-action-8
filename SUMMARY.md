@@ -246,6 +246,7 @@ bui# Summary
   * [6.5 有效载荷 Payloads](part-1/ch6/ch6-05.md)
     * [6.5.1 分析期间产生 payload（Producing payloads during analysis）](part-1/ch6/ch6-05.md#1)
     * [6.5.2 搜索时使用 payload（Using payloads during searching）](part-1/ch6/ch6-05.md#2)
+  * [6.6 灵活的 StandardQueryParser](part-1/ch6/ch6-06.md)
   
 ### [第二部分 Lucene 应用](part-2/part-2.md)
 * [第7章 利用 Tika 提取文本 Extracting text with Tika](part-2/ch7/ch7.md)
@@ -278,6 +279,7 @@ bui# Summary
     * [8.6.3 BoostingQuery](part-2/ch8/ch8-06.md#3)
     * [8.6.4 RegexpQuery](part-2/ch8/ch8-06.md#4)
   * [8.7 利用 UnifiedHighlighter 对查询词项进行高亮显示](part-2/ch8/ch8-07.md)
+  * [8.8 扩展杂项](part-2/ch8/ch8-08.md)
 * [第9章 Lucene 深度扩展 Further Lucene extensions](part-2/ch7/ch9.md)
 
 
