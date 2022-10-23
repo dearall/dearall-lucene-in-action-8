@@ -298,6 +298,19 @@ bui# Summary
     * [10.1.3 索引到搜索延迟的调优（Tuning for index-to-search delay）](part-2/ch10/ch10-01.md.md#3)
     * [10.1.4 为高索引吞吐量调优（Tuning for indexing throughput）](part-2/ch10/ch10-01.md#4)
     * [10.1.5 为搜索延迟和吞吐量调优（Tuning for search latency and throughput）](part-2/ch10/ch10-01.md.md#5)
+  * [10.2 多线程和并发处理 Threads and concurrency](part-2/ch10/ch10-02.md)
+    * [10.2.1 使用多线程进行索引 Using threads for indexing](part-2/ch10/ch10-02.md#1)
+    * [10.2.2 使用多线程进行搜索 Using threads for searching](part-2/ch10/ch10-02.md#2)
+  * [10.3 资源消耗管理 Managing resource consumption](part-2/ch10/ch10-03.md)
+    * [10.3.1 硬盘空间管理](part-2/ch10/ch10-03.md#1)
+    * [10.3.2 文件描述符管理](part-2/ch10/ch10-03.md#2)
+    * [10.3.3 内存管理](part-2/ch10/ch10-03.md#3)
+  * [10.4 热备份索引 Hot backups of the index](part-2/ch10/ch10-04.md)
+    * [10.4.1 创建备份 Creating the backup](part-2/ch10/ch10-04.md#1)
+    * [10.4.2 从备份恢复 Restoring the index](part-2/ch10/ch10-04.md#2)
+  * [10.5 常见错误](part-2/ch10/ch10-05.md)
+    * [10.5.1 索引损坏 Index corruption](part-2/ch10/ch10-05.md#1)
+    * [10.5.2 修复索引 Repairing an index](part-2/ch10/ch10-05.md#2)
 
 
 
